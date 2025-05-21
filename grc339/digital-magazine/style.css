@@ -16,7 +16,9 @@ img {
 }
 
 body {
-    font-family: sans-serif;
+font-family: "helvetica-lt-pro", sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
 
@@ -31,7 +33,7 @@ div.container, div.home-container {
 }
 
 h1 {
-    width: 6em;
+    width: 20em;
     margin-top: 1em;
 }
 
@@ -49,15 +51,16 @@ header, h2, p {
 
 h2 {
     font-size: 2.5em;
-    font-family: serif;
-    font-weight: bold;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 article h2 {
     font-size: 2.5em;
     margin-top: 1em;
     margin-bottom: .5em;
-    color:rgb(92, 118, 150);
+    color:#13293D
 }
 
 article p {
@@ -75,26 +78,26 @@ section.secondary h2 {
 
 aside {
     margin-top: 1em;
-    background-color: rgb(204,207,251);
+    background-color:#F9C80E;
     padding: 1em .5em;
 }
 
 aside section.secondary h2 {
     font-size: 1em;
-    color:rgb(92, 118, 150)
+    color:rrgb(92, 118, 150)
 }
 
 section.tertiary h2 {
-    border-top: 1px solid rgb(92, 118, 150);
+    border-top: 1px solid #13293D;
     padding-top: .5em;
-    color:rgb(92, 118, 150);
+    color:#13293D;
     font-size: 1.5em;
 
 }
 
 a {
     text-decoration: none;
-    color:rgb(92, 118, 150);
+    color:#13293D;
 }
 
 /* nav {
@@ -106,8 +109,10 @@ nav ul li {
 }
 
 nav ul li a {
-    font-weight: bold;
-    color: rgb(92, 118, 150);
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color:#13293D;
 }
 
 nav ul {
@@ -116,25 +121,27 @@ nav ul {
 }
 
 nav ul li a:hover{
-    color: rgb(255,0,0);
+    color:#F9C80E;
 }
 
 figcaption {
-    color: rgb(135, 135, 135);
+    color:#8B786D;
     font-style: italic;
     margin: .2rem .5rem 1em;
 }
 
 footer {
-    background-color: rgb(92, 118, 150);
-    font-family: sans-serif;
+    background-color:#8B786D;
+    font-family: "helvetica-lt-pro", sans-serif;
+    font-weight: 300;
+    font-style: italic;
     padding: .5em;
     width: 100%;
     box-sizing: border-box;
 }
 
 footer p {
-    color:rgb(238,238,238);
+    color:#13293D;
     margin-left: 0.5em;
     margin-bottom: 0em;
 }
@@ -151,11 +158,11 @@ footer p {
     nav ul li{
         display: inline;
         margin-right: 1em;
-        color:rgb(92, 118, 150);
+        color:#13293D;
     }
 
     figcaption {
-        color:rgb(135, 135, 135);
+        color:#13293D;
         font-style: italic;
         margin: .2rem 0 1em;
     }
